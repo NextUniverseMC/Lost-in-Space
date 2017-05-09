@@ -1,25 +1,26 @@
-name: ASkyBlock
+name: Lost in Space
 main: com.wasteofplastic.askyblock.ASkyBlock
 version: ${version}
 description: A SkyBlock Plugin
 author: Tastybento
+authors: [TheDiamondPicks]
 depend: [Vault]
 softdepend: [Herochat]
 load: startup
 loadbefore: [Multiverse-Core]
 commands:
-    island:
+    lostinspace:
         description: Main player command
-        aliases: [is, island]
+        aliases: [lis, space, sp]
         usage:  |
-             /island help
-    asadmin:
+             /lostinspace help
+    spadmin:
         description: Admin commands
         usage:  |
-            /asadmin
-    asc:
+            /spadmin
+    challenge:
         description: Game challenges
-        aliases: [c, challenge, aschallenge, challenges]
+        aliases: [c, challenges]
         usage:  |  
             /challenge
 permissions:    
