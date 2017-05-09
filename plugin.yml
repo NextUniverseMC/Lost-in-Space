@@ -30,25 +30,25 @@ permissions:
       askyblock.island.*:
         children:
           askyblock.island.go:
-            description: Allow teleporting to player island
+            description: Allow teleporting to players space station
             default: true
           askyblock.island.create:
-            description: Let the player use the /island command
+            description: Let the player use the /lostinspace command
             default: true
           askyblock.island.info:
-            description: Let the player check their island level
+            description: Let the player check their space station level
             default: true
           askyblock.island.topten:
             description: Let the player see the top ten list
             default: true
           askyblock.island.sethome:
-            description: Let the player set their island teleport point
+            description: Let the player set their space station teleport point
             default: true
           askyblock.island.challenges:
             description: Let the player use the /challenges command
             default: true
           askyblock.island.warp:
-            description: Let the player use /island warp to warp to a players island
+            description: Let the player use /lostinspace warp to warp to a players island
             default: true
           askyblock.island.addwarp:
             description: Let the player place a Welcome warp sign
@@ -78,7 +78,7 @@ permissions:
             description: Player can select a language
             default: true
           askyblock.island.name:
-            description: Player can set the name of their island
+            description: Player can set the name of their space station
             default: false
           askyblock.island.value:
             description: Player can see the value of a block
@@ -111,13 +111,13 @@ permissions:
         default: false
         children:
           askyblock.command.resetexempt:
-            description: Player is exempt from commands run when island resets
+            description: Player is exempt from commands run when space station resets
             default: false
           askyblock.command.leaveexempt:
             description: Player is exempt from commands run when they leave or are kicked. Note will not help if player is offline.
             default: false
           askyblock.command.newexempt:
-            description: Player is exempt from commands run when starting an island
+            description: Player is exempt from commands run when starting an space station
             default: false
           askyblock.command.challengeexempt:
             description: Player is exempt from commands run when a challenge is completed
@@ -140,10 +140,10 @@ permissions:
         description: Includes player in top ten
         default: true
       askyblock.nohunger:
-        description: Excludes player from hunger if on island
+        description: Excludes player from hunger if on space station
         default: false
       askyblock.islandfly:
-        description: Allow player to fly inside his island boundaries
+        description: Allow player to fly inside his space station boundaries
         default: false
       askyblock.settings.*:
         description: Ability to change settings in GUI
@@ -308,31 +308,31 @@ permissions:
             description: Allows setting or reseting of a player's home position
             default: op
           askyblock.mod.clearreset:
-            description: Allow clearing of island reset limit
+            description: Allow clearing of space station reset limit
             default: false
           askyblock.mod.tp:
-            description: Allows teleport to an island
+            description: Allows teleport to an space station
             default: op
           askyblock.mod.tpnether:
-            description: Allows teleport to a nether island
+            description: Allows teleport to a nether space station
             default: op
           askyblock.mod.bypassprotect:
-            description: Allow moderator to bypass island protection
+            description: Allow moderator to bypass space station protection
             default: op
           askyblock.mod.bypassexpel:
-            description: Allow moderator to bypass island expulsion
+            description: Allow moderator to bypass space station expulsion
             default: op
           askyblock.mod.setbiome:
-            description: Allows setting player island biomes
+            description: Allows setting player space station biomes
             default: op
           askyblock.mod.topbreeders:
-            description: Lists most populated islands current loaded
+            description: Lists most populated space stations current loaded
             default: op
           askyblock.mod.lock:
-            description: Locks or unlocks an island
+            description: Locks or unlocks an space station
             default: op
           askyblock.mod.bypasslock:
-            description: Bypasses an island lock
+            description: Bypasses an space station lock
             default: op
           askyblock.mod.signadmin:
             description: Enables warp sign admin commands
@@ -347,10 +347,10 @@ permissions:
             description: Enables modification of teams via kick and add commands
             default: false
           askyblock.mod.name:
-            description: Enables naming of player's islands
+            description: Enables naming of player's space stations
             default: false
           askyblock.mod.resetname:
-            description: Enables reset of player's island names
+            description: Enables reset of player's space station names
             default: false
           askyblock.mod.setdeaths:
             description: Sets how many deaths the player has
@@ -358,7 +358,7 @@ permissions:
       askyblock.admin.*:
         children:
           askyblock.admin.clearresetall:
-            description: Allow clearing of island reset limit of all players
+            description: Allow clearing of space station reset limit of all players
             default: op
           askyblock.admin.reload:
             description: Reload the config.yml
@@ -367,16 +367,16 @@ permissions:
             description: Let a player completely remove a player (including island)
             default: op
           askyblock.admin.deleteisland:
-            description: Let a player completely remove the island the player is on
+            description: Let a player completely remove the space station the player is on
             default: op
           askyblock.admin.register:
-            description: Let a player register the nearest island to another player.
+            description: Let a player register the nearest space station to another player.
             default: op
           askyblock.admin.unregister:
-            description: Removes a player from an island without deleting the island blocks.
+            description: Removes a player from an space station without deleting the island blocks.
             default: op
           askyblock.admin.purge:
-            description: Let a player purge old islands.
+            description: Let a player purge old space station.
             default: op
           askyblock.admin.noburn:
             description: Gives admin immunity to acid
@@ -385,19 +385,19 @@ permissions:
             description: Allows use of spawn tools
             default: op
           askyblock.admin.setrange:
-            description: Allows setting of island protection range
+            description: Allows setting of space station protection range
             default: op
           askyblock.admin.topbreeders:
-            description: Lists most populated islands current loaded
+            description: Lists most populated space stations current loaded
             default: op
           askyblock.admin.reserve:
-            description: Reserves an empty spot for a player's next island
+            description: Reserves an empty spot for a player's next space station
             default: op
           askyblock.admin.settingsreset:
-            description: Resets all the islands to default protection settings
+            description: Resets all the space stations to default protection settings
             default: op
           askyblock.admin.noban:
-            description: Player cannot be banned from an island
+            description: Player cannot be banned from an space station
             default: op
           askyblock.admin.cobblestats:
             description: Displays magic cobble gen stats
