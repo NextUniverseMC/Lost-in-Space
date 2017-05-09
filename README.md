@@ -7,3 +7,6 @@ You have been left alone on a space station, your goal is to survive as long as 
 * Different commands ¯\_(ツ)_/¯ 
 * Custom Locale
 
+# Attribution
+Original plugin by tastybento. See a full list of contributers at https://github.com/tastybento/askyblock/graphs/contributors
+Edited by TheDiamondPicks.
